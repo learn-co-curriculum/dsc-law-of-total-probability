@@ -8,7 +8,7 @@ In this lesson, we shall look at the law of total probability. In probability th
 You will be able to:
 * Understand and explain the concept of event space and partitioning 
 * State the law of total probabilities based on a partitioned event space
-* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem. 
+* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem
 * Understand and describe conditional independence
 
 ## Partitioning a Sample Space
