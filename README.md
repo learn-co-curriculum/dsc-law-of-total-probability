@@ -69,17 +69,16 @@ $$P(A)=∑_iP(A|Bi)P(Bi)$$
 
 ## Partitions
 
-A lot of reasoning in probability theory involves decomposing a complicated event into simpler events, or decomposing complicated random variables into simpler ones like we saw in this simple problem above. Conditional probability is one way to do that, and it fits into this more general scheme of “decomposing” events and variables into components.
+Above, you saw that we solved a more complicated problem by looking at this event as a combination of smaller event. You'll see this happen a lot in probability theory.
 
-The usual way to break up a set into pieces is via a **Partition**. Recall the following set-theoretic definition. 
+Decomposing sets into pieces is often done via a **Partition**. Recall this definition of sets:
 
 > A partition of a set $X$ is a collection of subsets $Xi \in X$ so that every element $x \in X$ occurs in exactly one of the $Xi$.
 
 #### Examples:
 
-* We can partition the natural numbers $\mathbb{N}$ into even and odd numbers. 
-* We can partition the set of people in the world into subsets where each subset corresponds to a country and a person is placed in the subset corresponding to where they were born etc.
-
+* The natural numbers $\mathbb{N}$ can be partitioned into even and odd numbers. 
+* The set of animal species in the world can be partitioned into subsets where a subset reflects a continent and each species is positioned in a subset depending on which continent they originated from. 
 
 In statistics choosing the right partitioning is key as bad choices of partitions may results in many, even more difficult to solve sub-problems.
 
@@ -127,7 +126,7 @@ $$Pr(B) = Pr(B|R) Pr(R) + Pr(B|D) Pr(D) + Pr(B|I) Pr(I)$$
 
 = (0.4 · 0.6) + (0.65 · 0.3) + (0.55 · 0.1) = 0.49.
 
-## Example 2 
+### Example 2 
 
 Let's consider a 2-card hand drawn from a standard playing deck. What is the probability of drawing 2 aces, given that we know one of the cards is an ace?
 
@@ -148,7 +147,7 @@ But now think about this: What is the probability of drawing 2 aces, knowing tha
 
 _Notice how the fact that we know we have the ace of spades nearly doubles the probability of having 2 aces._
 
-## Example 3
+### Example 3
 
 Suppose there is a test for a disease, and this test is touted as being "95% accurate". The disease in question afflicts 1% of the population. Now say that there is a patient who tests positive for this disease under this test.
 
@@ -210,7 +209,7 @@ Consider playing a series of 5 games against a chess opponent of unknown strengt
 
 > The games are conditionally independent given the strength of our opponent, but _not_ independent unconditionally.
 
-### Unconditional independence DOes NOT imply conditional independence given $C$
+### Unconditional independence DOES NOT imply conditional independence given $C$
 
 For example Let $A$ be the event of the fire alarm going off, $F$ be the event of a fire and $C$ be the event of someone making popcorn. Suppose that either $F$ or $C$ will result in $A$ and the fire alarm going off. Now if $F$ and $C$ are independent: knowing that there's a fire $F$ doesn't tell me anything about anyone making popcorn $C$; and vice versa. But the probability of a fire given that the alarm goes off __and__ no one is making any popcorn is given by  $P(F|A,C^c) = 1$. After all, if the fire alarm goes off and no one is making popcorn, there can only be one explanation: _there must be a fire_.
 
