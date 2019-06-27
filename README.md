@@ -17,7 +17,7 @@ the Law of Total Probability can be used to calculate $P(B)$. The law requires t
 
 Let $A_1, A_2, \dots, A_n$ partition sample space $S$ into disjoint regions that sum up to $S$. In the example, 4 regions of $A_1, A_2, A_3$ and $A_n$ sum up to sample space $S$.
 
-![](images/tp1.png)
+![](images/Image_55_TotProb.png)
 
 The probability of a random event $B$ (orange area) can be written down as:
 
@@ -73,7 +73,7 @@ Using a Venn diagram, we can pictorially see the idea behind the law of total pr
 * $A_2 = A \cap B_2$
 * $A_3 = A \cap B_3$
 
-<img src="images/ven1.png" width="400">
+<img src="images/Image_56_vent.png" width="400">
 
 As it can be seen from the figure, $A_1$, $A_2$, and $A_3$ form a partition of the set A, and thus 
 
@@ -91,7 +91,7 @@ $P(A)=\sum_i P(A \mid B_i)P(B_i)$
 
 In statistics choosing the right partitioning is key as bad choices of partitions may results in many, even more difficult to solve sub-problems.
 
-![](images/tp2.png)
+![](images/Image_57_TotProb_2.png)
 
 The probability of $A$ can be written as sums of event $B$ (note that $B^c$ is abother way of writing $B'$) The total probability rule is:
 
