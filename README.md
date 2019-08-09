@@ -99,7 +99,7 @@ $P(A) = P(A \cap B) + P(A \cap B^c)$
 
 An alternate version of the total probability rule (found with the multiplication rule) can be used when the necessary probabilities are known  :
 
-$P(A \cap B) = P(A \mid B)  P(B) + P(A \cap B^c) = P(A \mid B^c)P(B^c)$
+$P(A) = P(A \mid B)  P(B) + P(A \mid B^c)P(B^c)$
 
 You need to be careful when dealing with conditional probabilities and conditioning. Let's look at a few examples to see this idea in action. 
 
