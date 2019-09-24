@@ -1,14 +1,14 @@
 
-# Partitioning and Law of Total Probability
+# Partitioning and the Law of Total Probability
 
 ## Introduction 
-In this lesson, we'll look at the law of total probability. In probability theory, the law (or formula) of total probability is a fundamental rule relating **marginal probabilities** to conditional probabilities. It expresses the total probability of an outcome which can be realized via several distinct events.
+In this lesson, we'll look at the law of total probability. In probability theory, the law (or formula) of total probability is a fundamental rule relating **marginal probabilities** to conditional probabilities. It expresses the total probability of an outcome that can be realized via several distinct events.
 
 ## Objectives
 You will be able to:
 * Understand and explain the concept of event space and partitioning 
 * State the law of total probabilities based on a partitioned event space
-* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem
+* Understand and be able to perform partitioning based on known and unknown probabilities to solve a problem
 * Understand and describe conditional independence
 
 ## Partitioning a Sample Space
@@ -89,15 +89,15 @@ $P(A)=\sum_i P(A \mid B_i)P(B_i)$
 * The natural numbers $\mathbb{N}$ can be partitioned into even and odd numbers. 
 * The set of animal species in the world can be partitioned into subsets where a subset reflects a continent and each species is positioned in a subset depending on which continent they originated from. 
 
-In statistics choosing the right partitioning is key as bad choices of partitions may results in many, even more difficult to solve sub-problems.
+In statistics, choosing the right partitioning is key as bad choices of partitions may results in many sub-problems that are even more difficult to solve.
 
 ![](images/Image_57_TotProb_2.png)
 
-The probability of $A$ can be written as sums of event $B$ (note that $B^c$ is abother way of writing $B'$) The total probability rule is:
+The probability of $A$ can be written as sums of event $B$ (note that $B^c$ is another way of writing $B'$) The total probability rule is:
 
 $P(A) = P(A \cap B) + P(A \cap B^c)$
 
-An alternate version of the total probability rule (found with the multiplication rule) can be used when the necessary probabilities are known  :
+An alternate version of the total probability rule (found with the multiplication rule) can be used when the necessary probabilities are known:  
 
 $P(A) = P(A \mid B)  P(B) + P(A \mid B^c)P(B^c)$
 
@@ -149,7 +149,7 @@ _Notice how the fact that we know we have the ace of spades nearly doubles the p
 
 Suppose there is a test for a disease, and this test is said to be "95% accurate". The disease in question afflicts 1% of the population. Now say that there is a patient who tests positive for this disease under this test.
 
-First we define the events in question:
+First, we define the events in question:
 
 Let $D$ be the event that the patient actually has the disease.
 
@@ -199,13 +199,13 @@ i.e. conditioning on event $C$ does not give us any additional information on $A
 
 ### Conditional independence given $C$ DOES NOT imply unconditional independence
 
-Consider playing a series of 5 games against a chess opponent of unknown strength. Winning all five games gives would give you a good idea that you are better player. So winning each successive game actually is providing us with information about the strength of our opponent. If you have prior knowledge about the strength of your opponent, you condition on the strength of our opponent i.e. Winning one game would not provide us with any additional information on the probability of winning the next. Having no prior knowledge of your opponent, and winning a string a games will give you information about the probability of winning the next game.
+Consider playing a series of 5 games against a chess opponent of unknown strength. Winning all five games would give you a good idea that you are a better player. So winning each successive game is actually providing us with information about the strength of our opponent. If you have prior knowledge about the strength of your opponent, you condition on the strength of our opponent i.e. winning one game would not provide us with any additional information on the probability of winning the next. Having no prior knowledge of your opponent and winning a string a games will give you information about the probability of winning the next game.
 
 The games are conditionally independent given the strength of our opponent, but **not** independent unconditionally.
 
 ### Unconditional independence DOES NOT imply conditional independence given $C$
 
-For example, lett $A$ be the event of the fire alarm going off, $F$ be the event of a fire and $C$ be the event of someone making popcorn. Suppose that either $F$ or $C$ will result in $A$ and the fire alarm going off. Now if $F$ and $C$ are independent: knowing that there's a fire $F$ doesn't tell me anything about anyone making popcorn $C$, and vice versa. But the probability of a fire given that the alarm goes off **and** no one is making any popcorn is given by  $P(F \mid A,C^c) = 1$. After all, if the fire alarm goes off and no one is making popcorn, there can only be one explanation: _there must be a fire_.
+For example, let $A$ be the event of the fire alarm going off, $F$ be the event of a fire, and $C$ be the event of someone making popcorn. Suppose that either $F$ or $C$ will result in $A$ and the fire alarm going off. Now if $F$ and $C$ are independent: knowing that there's a fire $F$ doesn't tell you anything about anyone making popcorn $C$, and vice versa. But the probability of a fire given that the alarm goes off **and** no one is making any popcorn is given by  $P(F \mid A,C^c) = 1$. After all, if the fire alarm goes off and no one is making popcorn, there can only be one explanation: _there must be a fire_.
 
 So $F$ and $C$ may be independent, but they are not _conditionally independent_ when we condition on event $A$. Knowing that nobody is making any popcorn when the alarm goes off can only mean that there is a fire.
 
@@ -214,7 +214,7 @@ You are strongly advised to visit following links to get an indepth understandin
 
 [The law of total probability - concept and proof](https://www.youtube.com/watch?v=J7Evcn4lfhc) - Excellent YouTube video by Phil Chan.
 
-[Conditional (Partitioned) Probability — A Primer](https://jeremykun.com/2013/03/28/conditional-partitioned-probability-a-primer/) - Deep dive into partitions (A Must read)
+[Conditional (Partitioned) Probability — A Primer](https://jeremykun.com/2013/03/28/conditional-partitioned-probability-a-primer/) - Deep dive into partitions (A Must Read)
 
 [Law of Total Probability](https://www.sangakoo.com/en/unit/law-of-total-probability) - More examples for a deeper understanding around partitioning
 
