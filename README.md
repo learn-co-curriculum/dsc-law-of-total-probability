@@ -15,7 +15,7 @@ You will be able to:
 
 the Law of Total Probability can be used to calculate $P(B)$. The law requires that you have a set of disjoint events $A_i$ that collectively "cover" the event $B$. Then, instead of calculating $P(B)$ directly, you add up the intersection of $B$ with each of the events $A_i$. Let's see this graphically below:
 
-Let $A_1, A_2, \dots, A_n$ partition sample space $S$ into disjoint regions that sum up to $S$. In the example, 4 regions of $A_1, A_2, A_3$ and $A_n$ sum up to sample space $S$.
+Let $A_1, A_2, \dots, A_n$ partition sample space $S$ into disjoint regions that sum up to $S$. In the example, the four regions $A_1, A_2, A_3$ and $A_4$ sum up to sample space $S$.
 
 ![](images/Image_55_TotProb.png)
 
@@ -31,19 +31,18 @@ Here we use the first theorem mentioned in the previous lesson to find the combi
 
 
 ### Example 
+
 Let's use a simple example to clarify the image above! The example is created to match the image.
 
 In a certain country, there are four provinces (eg. disjoint regions) $A_1, A_2$, $A_3$ and $A_4$.
 
-You are interested in the total forest area in the country. 
+You are interested in the total forest area, $B$, in the country. 
 
 Suppose that you know that the forest area in $A_1$, $A_2$, and $A_3$ are 100 km$^2$, 50 km$^2$, and 150 km$^2$, and 0 km$^2$ respectively. What is the total forest area in the country? 
 
 100km$^2$ + 50km$^2$ + 150km$^2$+ 0 km$^2$ = 300 km$^2$
 
 We can simply add forest areas in each province to obtain the forest area in the whole country. 
-
-If you want to formalize this in terms of the law of total probability, say:
 
 This is the idea behind the law of total probability, in which the area of forest is replaced by probability of an event $B$. In particular, if you want to find $P(B)$, you can look at a partition of $S$ (our sample space composed of $A_1,\ldots, A_4$), and add the amount of probability of $A$ that falls in each partition. 
 
@@ -63,7 +62,7 @@ The law of total probability is basically a general version of this.
 
 ## Law of Total Probability 
 
-If B1,B2,B3,⋯ is a partition of the sample space S, then for any event A we have
+If $B_1$,$B_2$,$B_3$,$\dots$ is a partition of the sample space S, then for any event A we have
 
 $$P(A)= \sum_i P(A \cap B_i)= \sum_i P(A \mid B_i)P(B_i)$$
 
@@ -104,7 +103,7 @@ $P(A) = P(A \mid B)  P(B) + P(A \mid B^c)P(B^c)$
 You need to be careful when dealing with conditional probabilities and conditioning. Let's look at a few examples to see this idea in action. 
 
 ### Example 1
-In a certain county, $60\%$ of registered voters are Republicans, $30\%$ are Democrats and $10\%$ are Independents.
+In a certain county in the United States, $60\%$ of registered voters are Republicans, $30\%$ are Democrats and $10\%$ are Independents.
 
 When those voters were asked about increasing military spending
 * $40\%$ of Republicans opposed it
