@@ -6,10 +6,10 @@ In this lesson, we'll look at the law of total probability. In probability theor
 
 ## Objectives
 You will be able to:
-* Understand and explain the concept of event space and partitioning 
-* State the law of total probabilities based on a partitioned event space
-* Understand and be able to perform partitioning based on known and unknown probabilities to solve a problem
-* Understand and describe conditional independence
+- State the law of total probabilities based on a partitioned event space
+- Explain the concept of event space and partitioning
+- Describe conditional independence
+- Perform partitioning based on known and unknown probabilities to solve a problem
 
 ## Partitioning a Sample Space
 
