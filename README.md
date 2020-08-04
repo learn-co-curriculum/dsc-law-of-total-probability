@@ -22,7 +22,7 @@ Let  <img src="https://render.githubusercontent.com/render/math?math=A_1, A_2, \
 The probability of a random event  <img src="https://render.githubusercontent.com/render/math?math=B"> (orange area) can be written down as:
 
 <img src="https://render.githubusercontent.com/render/math?math=P(B)">
-<img src="https://render.githubusercontent.com/render/math?math==P(B \cap A1) + P(B \cap A2) + P(B \cap A3)+ P(B \cap A4)\"> <img src="https://render.githubusercontent.com/render/math?math==P(B \mid A1)P(A1) + P(B \mid A2)P(A2) +P(B \mid A3)P(A3)+ P(B \mid A4)P(A4">
+<img src="https://render.githubusercontent.com/render/math?math==P(B \cap A1) %2b P(B \cap A2) %2b P(B \cap A3)%2b P(B \cap A4)\"> <img src="https://render.githubusercontent.com/render/math?math==P(B \mid A1)P(A1) %2b P(B \mid A2)P(A2) %2bP(B \mid A3)P(A3)+ P(B \mid A4)P(A4">
 
 Here we use the first theorem mentioned in the previous lesson to find the combined probabilities. 
 
@@ -163,10 +163,11 @@ _What exactly are we trying to find?_
 
 What the patient really wants to know is not  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> , which is the accuracy of the test; but rather  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> , or the probability she has the disease given that the test returns positive. Fortunately, we know how  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> relates to  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> .
 
-<img src="https://render.githubusercontent.com/render/math?math=P(D|T) &= \frac{P(T|D)P(D)}{P(T)} ~~~~ & &\text{... Bayes Rule} \\
-    &= \frac{P(T|D)P(D)}{P(T|D)P(D) + P(T|D^c)P(D^c)} ~~~~ &  & \text{... by the Law of Total Probability} \\
-    &= \frac{(0.95)(0.01)}{(0.95)(0.01) + (0.05)(0.99)} ~~~~ & & \text{... the rarity of the disease competes with the rarity of true negatives}\\
-    &\approx 0.16">
+<img src="https://render.githubusercontent.com/render/math?math=P(D|T)">
+<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T)} ~~~~">... Bayes Rule (1)
+<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T|D)P(D) %2b P(T|D^c)P(D^c)} ~~~~">... by the Law of Total Probability (2)
+<img src="https://render.githubusercontent.com/render/math?math== \frac{(0.95)(0.01)}{(0.95)(0.01) %2b (0.05)(0.99)} ~~~~">... the rarity of the disease competes with the rarity of true negatives (3)
+<img src="https://render.githubusercontent.com/render/math?math=\approx 0.16"> (4)
 
 ## Common Pitfalls
 
