@@ -163,10 +163,10 @@ _What exactly are we trying to find?_
 
 What the patient really wants to know is not  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> , which is the accuracy of the test; but rather  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> , or the probability she has the disease given that the test returns positive. Fortunately, we know how  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> relates to  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> .
 
-<img src="https://render.githubusercontent.com/render/math?math=P(D|T)">
-<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T)} ~~~~">... Bayes Rule (1)
-<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T|D)P(D) %2b P(T|D^c)P(D^c)} ~~~~">... by the Law of Total Probability (2)
-<img src="https://render.githubusercontent.com/render/math?math== \frac{(0.95)(0.01)}{(0.95)(0.01) %2b (0.05)(0.99)} ~~~~">... the rarity of the disease competes with the rarity of true negatives (3)
+<img src="https://render.githubusercontent.com/render/math?math=P(D|T)">  
+<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T)} ~~~~">... Bayes Rule (1)   
+<img src="https://render.githubusercontent.com/render/math?math== \frac{P(T|D)P(D)}{P(T|D)P(D) %2b P(T|D^c)P(D^c)} ~~~~">... by the Law of Total Probability (2)   
+<img src="https://render.githubusercontent.com/render/math?math== \frac{(0.95)(0.01)}{(0.95)(0.01) %2b (0.05)(0.99)} ~~~~">... the rarity of the disease competes with the rarity of true negatives (3)   
 <img src="https://render.githubusercontent.com/render/math?math=\approx 0.16"> (4)
 
 ## Common Pitfalls
