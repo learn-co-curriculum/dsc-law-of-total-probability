@@ -21,10 +21,7 @@ Let  <img src="https://render.githubusercontent.com/render/math?math=A_1, A_2, \
 
 The probability of a random event  <img src="https://render.githubusercontent.com/render/math?math=B"> (orange area) can be written down as:
 
-\begin{align}
-    P(B) &= P(B \cap A_1) + P(B \cap A_2) + P(B \cap A_3)+ P(B \cap A_4) \\
-         &= P(B \mid A_1)P(A_1) + P(B \mid A_2)P(A_2) +P(B \mid A_3)P(A_3)+ P(B \mid A_4)P(A_4)
-\end{align}
+<img src="https://render.githubusercontent.com/render/math?math=P(B) &= P(B \cap A1) + P(B \cap A2) + P(B \cap A3)+ P(B \cap A4) \ &= P(B \mid A1)P(A1) + P(B \mid A2)P(A2) +P(B \mid A3)P(A3)+ P(B \mid A4)P(A4">
 
 Here we use the first theorem mentioned in the previous lesson to find the combined probabilities. 
 
@@ -103,12 +100,13 @@ An alternate version of the total probability rule (found with the multiplicatio
 You need to be careful when dealing with conditional probabilities and conditioning. Let's look at a few examples to see this idea in action. 
 
 ### Example 1
-In a certain county in the United States,  <img src="https://render.githubusercontent.com/render/math?math=60\%"> of registered voters are Republicans,  <img src="https://render.githubusercontent.com/render/math?math=30\%"> are Democrats and  <img src="https://render.githubusercontent.com/render/math?math=10\%"> are Independents.
+In a certain county in the United States, 60% of registered voters are Republicans, 30% are Democrats and 10% are Independents.
 
-When those voters were asked about increasing military spending
-*  <img src="https://render.githubusercontent.com/render/math?math=40\%"> of Republicans opposed it
-*  <img src="https://render.githubusercontent.com/render/math?math=65\%"> of the Democrats opposed it
-*  <img src="https://render.githubusercontent.com/render/math?math=55\%"> of the Independents opposed it.
+When those voters were asked about increasing military spending. 
+
+*  40% of Republicans opposed it. 
+*  65% of the Democrats opposed it. 
+*  55% of the Independents opposed it.
 
 What is the probability that a randomly selected voter in this county opposes increased military spending?
 
@@ -164,12 +162,10 @@ _What exactly are we trying to find?_
 
 What the patient really wants to know is not  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> , which is the accuracy of the test; but rather  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> , or the probability she has the disease given that the test returns positive. Fortunately, we know how  <img src="https://render.githubusercontent.com/render/math?math=P(T|D)"> relates to  <img src="https://render.githubusercontent.com/render/math?math=P(D|T)"> .
 
-\begin{align}
-    P(D|T) &= \frac{P(T|D)P(D)}{P(T)} ~~~~ & &\text{... Bayes Rule} \\
+<img src="https://render.githubusercontent.com/render/math?math=P(D|T) &= \frac{P(T|D)P(D)}{P(T)} ~~~~ & &\text{... Bayes Rule} \\
     &= \frac{P(T|D)P(D)}{P(T|D)P(D) + P(T|D^c)P(D^c)} ~~~~ &  & \text{... by the Law of Total Probability} \\
     &= \frac{(0.95)(0.01)}{(0.95)(0.01) + (0.05)(0.99)} ~~~~ & & \text{... the rarity of the disease competes with the rarity of true negatives}\\
-    &\approx 0.16
-\end{align}
+    &\approx 0.16">
 
 ## Common Pitfalls
 
