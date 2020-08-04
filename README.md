@@ -21,7 +21,8 @@ Let  <img src="https://render.githubusercontent.com/render/math?math=A_1, A_2, \
 
 The probability of a random event  <img src="https://render.githubusercontent.com/render/math?math=B"> (orange area) can be written down as:
 
-<img src="https://render.githubusercontent.com/render/math?math=P(B) &= P(B \cap A1) + P(B \cap A2) + P(B \cap A3)+ P(B \cap A4) \ &= P(B \mid A1)P(A1) + P(B \mid A2)P(A2) +P(B \mid A3)P(A3)+ P(B \mid A4)P(A4">
+<img src="https://render.githubusercontent.com/render/math?math=P(B)">
+<img src="https://render.githubusercontent.com/render/math?math==P(B \cap A1) + P(B \cap A2) + P(B \cap A3)+ P(B \cap A4)\"> <img src="https://render.githubusercontent.com/render/math?math==P(B \mid A1)P(A1) + P(B \mid A2)P(A2) +P(B \mid A3)P(A3)+ P(B \mid A4)P(A4">
 
 Here we use the first theorem mentioned in the previous lesson to find the combined probabilities. 
 
@@ -35,9 +36,9 @@ In a certain country, there are four provinces (eg. disjoint regions)  <img src=
 
 You are interested in the total forest area,  <img src="https://render.githubusercontent.com/render/math?math=B"> , in the country. 
 
-Suppose that you know that the forest area in  <img src="https://render.githubusercontent.com/render/math?math=A_1"> ,  <img src="https://render.githubusercontent.com/render/math?math=A_2"> , and  <img src="https://render.githubusercontent.com/render/math?math=A_3"> are 100 km <img src="https://render.githubusercontent.com/render/math?math=^2"> , 50 km <img src="https://render.githubusercontent.com/render/math?math=^2"> , and 150 km <img src="https://render.githubusercontent.com/render/math?math=^2"> , and 0 km <img src="https://render.githubusercontent.com/render/math?math=^2"> respectively. What is the total forest area in the country? 
+Suppose that you know that the forest area in  <img src="https://render.githubusercontent.com/render/math?math=A_1"> ,  <img src="https://render.githubusercontent.com/render/math?math=A_2"> , and <img src="https://render.githubusercontent.com/render/math?math=A_3"> are 100<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> , 50<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> , and 150<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> , and 0<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> respectively. What is the total forest area in the country? 
 
-100km <img src="https://render.githubusercontent.com/render/math?math=^2"> + 50km <img src="https://render.githubusercontent.com/render/math?math=^2"> + 150km <img src="https://render.githubusercontent.com/render/math?math=^2"> + 0 km <img src="https://render.githubusercontent.com/render/math?math=^2"> = 300 km <img src="https://render.githubusercontent.com/render/math?math=^2"> 
+100<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> + 50<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> + 150<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> + 0<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> = 300<img src="https://render.githubusercontent.com/render/math?math=\text{km}^2"> 
 
 We can simply add forest areas in each province to obtain the forest area in the whole country. 
 
