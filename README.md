@@ -1,4 +1,3 @@
-
 # Partitioning and the Law of Total Probability
 
 ## Introduction 
@@ -17,7 +16,7 @@ the Law of Total Probability can be used to calculate $P(B)$. The law requires t
 
 Let $A_1, A_2, \dots, A_n$ partition sample space $S$ into disjoint regions that sum up to $S$. In the example, the four regions $A_1, A_2, A_3$ and $A_4$ sum up to sample space $S$.
 
-![](images/Image_55_TotProb.png)
+![](https://curriculum-content.s3.amazonaws.com/data-science/images/Image_55_TotProb.png)
 
 The probability of a random event $B$ (orange area) can be written down as:
 
@@ -72,7 +71,7 @@ Using a Venn diagram, we can pictorially see the idea behind the law of total pr
 * $A_2 = A \cap B_2$
 * $A_3 = A \cap B_3$
 
-<img src="images/Image_56_vent.png" width="400">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/Image_56_vent.png" width="400">
 
 As it can be seen from the figure, $A_1$, $A_2$, and $A_3$ form a partition of the set A, and thus 
 
@@ -90,7 +89,7 @@ $P(A)=\sum_i P(A \mid B_i)P(B_i)$
 
 In statistics, choosing the right partitioning is key as bad choices of partitions may results in many sub-problems that are even more difficult to solve.
 
-![](images/Image_57_TotProb_2.png)
+![](https://curriculum-content.s3.amazonaws.com/data-science/images/Image_57_TotProb_2.png)
 
 The probability of $A$ can be written as sums of event $B$ (note that $B^c$ is another way of writing $B'$) The total probability rule is:
 
